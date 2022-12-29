@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../image/okullogo.jpeg);
+    background-size: cover;
+}
+.kutu{
+    margin: auto;
+    margin-top: 100px;
+    background:rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 600px;
+}
+.resim{
+    text-align: center;
+}
+.dugme{
+    text-align: center;
+    margin-top: 20px;
+}
+.dugme input[type=button]{
+    width: 450px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 50px;
+    
+}
+.metin{
+    color: white;
+    text-align: justify;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+input[type=button]{
+    border:none;
+    transition: 1s;
+}
+input[type=button]:hover{
+    border: 1px solid black;
+    transition: 1s;
+    
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+     background-image: url(../image/low_poly_banner_design_1711.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.logo{
+  float: left;
+  margin-left: 60px;
+  margin-top: 10px;
+  
+}
+.logo img{
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+}
+.menu{  
+    float: right;
+    padding-right: 100px;
+      
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 100px;
+    transition: 1s;
+    
+}
+.menu a:hover{
+   
+   color: white;
+   transition: 1s;
+   font-size: 19px;
+}
+.top .text{
+    line-height: 100px;
+    float: left;
+    padding-left: 20px;
+    color: white;
+}
+.top .text:hover{
+    text-decoration: underline;
+}
+
+.top{
+    background: rgba(0, 0, 0, 0.3);
+    width: 99,9%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    position: sticky;
+       
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    height: 976px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.left{
+    
+    width: 49.5%;
+    height: 100px;
+    display: inline-block;
+}
+.right{
+    
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+.bottom{
+   clear: both;
+   width: 99,9%;
+   height: 100px;
+   margin-top: 24%;
+    
+
+}
+.bottom input[type=button]{
+    border: none;
+    border-radius: 20px;
+    margin-top: 19px;
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    transition: 1s;
+}
+.bottom input[type=button]:hover{
+    transition: 1s;
+    border: 1px solid black;
+}
+.container table{
+    color: white;
+    margin-left: 50px;
+}
+form{
+    
+    display: inline-block;
+}
+label{
+    text-decoration: underline;
+}
+input[type=text],input[type=email]{
+    width: 150px;
+    height: 30px;
+    
+       
+}
+textarea{
+    resize: none;
+    border-radius: 10px;
+    
+}
+input[type=submit],input[type=reset]{
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    width: 115px;
+    height:55px;
+    border: 1px solid black;
+    transition: 1s;
+}
+.bottom img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding-right: 50px;
+}
+
+
+
